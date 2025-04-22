@@ -48,7 +48,7 @@
 ------
 3. Строча 29 у меня значение "result": "cqWEV666NBHlg45j"
 ------
-4.Сразу были видны намеренные опечаки (random_password.random_string_FAKE - должно быть random_password.random_string), имя атрибута resulT - должно быть result, 1nginx (единичка вначале) и не хватало в строке 24 "nginx". Ну и сама команда указывает на ошибки.
+4. Сразу были видны намеренные опечаки (random_password.random_string_FAKE - должно быть random_password.random_string), имя атрибута resulT - должно быть result, 1nginx (единичка вначале) и не хватало в строке 24 "nginx". Ну и сама команда указывает на ошибки.
 ------
 5.docker ps:
 ------
