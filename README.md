@@ -39,7 +39,7 @@
 ### Ответ
 
 1. Версия:
-2. ------
+------
 ![1](https://github.com/Takarigua/terraform1/blob/ca8412a8a82db4a0cde43cfa0bf6a5383c41a189/screen/1.png)
 ------
 2. Указан файл personal.auto.tfvars, т.е. можно сохранять только в нём:
