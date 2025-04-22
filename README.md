@@ -38,23 +38,23 @@
 
 ### Ответ
 
-1.![1]()
+1.![1](https://github.com/Takarigua/terraform1/blob/ca8412a8a82db4a0cde43cfa0bf6a5383c41a189/screen/1.png)
 ------
 2. Указан файл personal.auto.tfvars, т.е. можно сохранять только в нём.
-![2]()
+![2](https://github.com/Takarigua/terraform1/blob/ca8412a8a82db4a0cde43cfa0bf6a5383c41a189/screen/2.png)
 ------
 3. Строча 29 у меня значение "result": "cqWEV666NBHlg45j"
 ------
 4.Сразу были видны намеренные опечаки (random_password.random_string_FAKE - должно быть random_password.random_string), имя атрибута resulT - должно быть result, 1nginx (единичка вначале) и не хватало в строке 24 "nginx".
 ------
-5. ![3]()
+5. ![3](https://github.com/Takarigua/terraform1/blob/ca8412a8a82db4a0cde43cfa0bf6a5383c41a189/screen/3.png)
 ------
 6&7. Ключ автоматически подтверждает изменения без запроса. Если в коде ошибка (например, удаление критического ресурса), Terraform выполнит её без предупреждения. Полезен только при автоматизации некоторых процессов, когда ручное подтверждение невозможно.
-![4]()
+![4](https://github.com/Takarigua/terraform1/blob/ca8412a8a82db4a0cde43cfa0bf6a5383c41a189/screen/4.png)
 ------
-8. ![5]()
+8. ![5](https://github.com/Takarigua/terraform1/blob/ca8412a8a82db4a0cde43cfa0bf6a5383c41a189/screen/5.png)
 ------
 9. Кусок этого кода в конфиге это прямое подтверждение из документации, что параметр keep_locally = true предотвращает удаление образа при выполнении terraform destroy - keep_locally (Boolean) If true, then the Docker image won't be deleted on destroy operation. If this is false, it will delete the image from the docker local storage on destroy operation.
-![6]()
+![6](https://github.com/Takarigua/terraform1/blob/ca8412a8a82db4a0cde43cfa0bf6a5383c41a189/screen/6.png)
 
 
