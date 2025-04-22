@@ -50,7 +50,7 @@
 ------
 4. Сразу были видны намеренные опечаки (random_password.random_string_FAKE - должно быть random_password.random_string), имя атрибута resulT - должно быть result, 1nginx (единичка вначале) и не хватало в строке 24 "nginx". Ну и сама команда указывает на ошибки.
 ------
-5.docker ps:
+5. docker ps:
 ------
 ![3](https://github.com/Takarigua/terraform1/blob/ca8412a8a82db4a0cde43cfa0bf6a5383c41a189/screen/3.png)
 ------
